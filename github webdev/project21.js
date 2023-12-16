@@ -10,9 +10,9 @@ if (height === '' || height < 0 || isNaN(height)) {
 }
 else{
 const bmi = (weight / ((height * height) / 10000)).toFixed(2);
-    }
+    
 results.innerHTML = bmi
-
+}
 
 
 
